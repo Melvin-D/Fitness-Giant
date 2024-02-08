@@ -1,4 +1,4 @@
-#Fitness Giant
+# Fitness Giant
 To run these programs you need an apache server and an sql database running on the current machine to simulate a server. This can be downloaded here https://www.apachefriends.org/
 
 After installation place the files in the htdocs directory of the folder xampp created.
