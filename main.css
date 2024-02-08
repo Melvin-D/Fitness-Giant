@@ -1,0 +1,221 @@
+.exercise_link {
+    width: 50%;
+    padding: 5px;
+    border-color: #001963;
+    margin: 5px;
+    background-color:chocolate; 
+}
+
+.exercise_link:hover {
+    background-color:yellow;
+}
+
+.exercise_link-text {
+    text-align:center;
+    font-size:25px;
+}
+
+.dropbtn {
+    background-color: #01AB0E ;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* dropdown styling for "Login" button on main page retrieved from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover */
+
+html {
+    background-color: #dfdfdf;    
+}
+body {
+    margin-top: 0;
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 960px;
+    background-color: #5BF567;
+    border: 1px solid #D6D6D6;
+}
+header {
+    margin: 0;
+    border-bottom: 2px solid #D6D6D6;
+    padding: .5em 2em;
+}
+header h1 {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header p {
+    margin: 0;
+    padding: .25em 0 0 0;
+}
+header ul {
+    margin: 0;
+    padding: 1em 0 0 0;
+}
+
+main {
+    margin: 0;
+    text-align: left;
+    padding: .5em 2em .25em;
+}
+footer {
+    clear: both;
+    margin-top: 1em;
+    padding-right: 1em;
+    border-top: 2px solid #D6D6D6;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .25em ;
+}
+h1, h2 {
+    color: black;
+}
+p {
+    margin: .5em 0 .5em 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+nav ul li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    color: #3333CC;
+    font-weight: bold;
+
+}
+a:hover {
+    color: #3333CC;
+}
+
+.description {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width:70%;
+        max-width:70%;
+}
+
+table.log{
+    width: 100%;
+    border: 1px solid #001963;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table {
+    border: 1px solid #001963;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td, th {
+    border: 1px dashed #001963;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+}
+#no_border {
+    border: 0px;
+}
+#no_border td {
+    border: 0px;
+}
+
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+
+.right {
+    text-align: right;
+}
+.error {
+    color: red;
+}
+.message {
+    margin-left: .5em;
+    width: 15em;
+}
+
+#aligned {
+    margin: .5em 0 2em;
+}
+#aligned label {
+    width: 8em;
+    margin-top: .2em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    float: left;
+}
+#aligned input {
+    float: left;
+}
+#aligned input[text] {
+    width: 15em;
+}
+#aligned .message {
+    margin-left: .5em;
+    width: 15em;
+}
